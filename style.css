@@ -1,5 +1,5 @@
 #header {
   background-color: white;
-  border-color: grey;
+  border: 5px solid grey;
   border-radius: 25px;
 }
