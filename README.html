@@ -1,24 +1,30 @@
 <!-- the README.md but in html and js -->
 <!doctype html>
-<html>
-<head>
-  <meta charset="UTF-8" />
-  <title>Stenium112 Utilities ! | README</title>
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <meta name="viewport" content="width=device-width" />
-  <link rel="shortcut icon" href="/favicon.ico?" type="image/x-icon" />
-</head>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Stenium112 Utilities ! | README</title>
+    <link rel="shortcut icon" href="/favicon.ico?" type="image/x-icon" />
+	  <link rel="stylesheet" location.href="/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  </head>
 <body>
 
-  <div id="readme"></div>
-
-  <script>
-    fetch("https://raw.githubusercontent.com/Stenium112/stenium112.github.io/main/README.md")
-      .then(res => res.text())
-      .then(md => {
-        document.getElementById("readme").innerHTML = marked.parse(md);
-      });
-  </script>
+  <div id="header">
+			<button onclick="location.href = '/index.html'">Home</button>
+    	<button onclick="location.href = '/README.html'">README</button>
+  </div>
+  
+  <div id="readme">
+    <script>
+      fetch("https://raw.githubusercontent.com/Stenium112/stenium112.github.io/main/README.md")
+        .then(res => res.text())
+        .then(md => {
+          document.getElementById("readme").innerHTML = marked.parse(md);
+        });
+    </script>
+  <div/>
 
 </body>
 </html>
