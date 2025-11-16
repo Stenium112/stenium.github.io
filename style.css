@@ -19,3 +19,8 @@
   padding: 10px 10px;
   justify-content: space-between;
 }
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
