@@ -1,5 +1,7 @@
 document.getElementById("numworksimu").style.visibility = false
 
-function showNumworkSimu() {
-    document.getElementById("numworksimu").style.visibility = true
+function showCalculatorSimu(id) {
+    if (id = NumworksSimu ) {
+        document.getElementById("NumworksSimu").style.visibility = true
+    }
 }
