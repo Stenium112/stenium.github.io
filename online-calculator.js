@@ -1,7 +1,9 @@
-document.getElementById("numworksimu").style.visibility = "hidden"
+document.addEventListener("DOMContentLoaded", function() {
+  document.getElementById("numworksimu").style.visibility = "hidden"
 
-function showCalculatorSimu(id) {
-    if (id = NumworksSimu ) {
-        document.getElementById("NumworksSimu").style.visibility = "visible"
-    }
-}
+    function showCalculatorSimu(id) {
+        if (id = NumworksSimu ) {
+          document.getElementById("NumworksSimu").style.visibility = "visible"
+      }
+    }   
+});
