@@ -18,3 +18,13 @@
   padding: 10px 10px;
   justify-content: space-between;
 }
+
+#CalculatorSimulator {
+  position: relative;
+  justify-content: center;
+  display: flex;
+  background-color: white;
+  border: 5px solid lightgray;
+  border-radius: 5px;
+  padding: 10px 10px;
+}

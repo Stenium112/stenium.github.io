@@ -7,3 +7,7 @@ function showCalculatorSimu(id) {
     document.getElementById("NumworksSimu").style.visibility = "visible";
   }
 }
+
+function ComingSoon() {
+  alert("This feature will coming soon !");
+}
