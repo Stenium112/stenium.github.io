@@ -1,5 +1,6 @@
 #header {
   display: flex;
+  box-sizing: content-box;
   width: fit-content(50%);
   left: 50%;
   right: 50%;
