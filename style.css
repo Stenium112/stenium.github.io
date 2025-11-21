@@ -19,7 +19,7 @@
   justify-content: space-between;
 }
 
-iframe.CalculatorSimulator {
+.CalculatorSimulator {
   position: relative;
   align-content: center;
   align-self: center;
