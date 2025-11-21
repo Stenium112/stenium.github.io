@@ -1,7 +1,8 @@
 #header {
+  position: relative;
   display: flex;
   box-sizing: content-box;
-  width: fit-content(50%);
+  width: fit-content;
   left: 50%;
   right: 50%;
   background-color: lightgray;
